@@ -1,0 +1,90 @@
+{
+    "id":654321,
+    "orderStatus":"success",
+    "freightCost":10000,
+    "additionAllInfo":"none",
+    "carriers":{
+        "id":1231,
+        "carrierCompanyName":"TATA",
+        "carrierContact":9890765431,
+        "carrierEmail":"tata@gmail.com",
+        "drivers":[{
+            "id":21331,
+            "driverName":"Tony",
+            "driverPhoneNumber":6789032156,
+            "truck":{
+                "id":99001,
+                "name":"Tata Truck",
+                "registerdNumber":8890,
+                "capacity":300,
+                "status":"ok",
+                "carriedId":345671
+            }
+        }]
+    },
+    "cargo":{
+        "id":88821,
+        "cargoName":"My Cargo",
+        "cargoDescription":"This is my cargo",
+        "cargoWeight":2000,
+        "cargoCount":10
+    },
+    "loading":{
+        "id":5671,
+        "companyName":"Tata Streel",
+        "address":{
+            "id":554223,
+            "streetName":"xyz",
+            "houseNumber":193,
+            "areaPincode":410532,
+            "district":"Pune",
+            "state":"Maharashtra",
+            "country":"India"
+        }
+    },
+    "unloading":{
+        "id":53211,
+        "companyName":"Tata Streel",
+        "address":{
+            "id":554233,
+            "streetName":"pqr",
+            "houseNumber":133,
+            "areaPincode":421532,
+            "district":"Banglore",
+            "state":"Karnataka",
+            "country":"India"
+        }
+    },
+    "loadingUser":[{
+        "id":4201,
+        "username":"Rahul Adkar",
+        "password":"rahul@123",
+        "phoneNumber":7499947149,
+        "userRole":"Admin",
+        "address":{
+            "id":5542222,
+            "streetName":"Shivali Road",
+            "houseNumber":201,
+            "areaPincode":410406,
+            "district":"Pune",
+            "state":"Maharashtra",
+            "country":"India"
+        }
+    }],
+    "unloadingUser":[{
+        "id":4202,
+        "username":"Siddhesh",
+        "password":"sid@123",
+        "phoneNumber":8907645329,
+        "userRole":"User",
+        "address":{
+            "id":554211,
+            "streetName":"Khed Road",
+            "houseNumber":709,
+            "areaPincode":410560,
+            "district":"Pune",
+            "state":"Maharashtra",
+            "country":"India"
+        }
+    }]
+}
